@@ -41,3 +41,4 @@ The relevant constraints are given in the following.
 
 5.1 No boundary intrusion: This is a soft constraint that should be met if possible. Namely, blocks should not intrude on the boundary of the map. In other words, the area of intrusion regions should be zero.
 ---
+Look at examples in the "Examples" section and utilize examples and information from that section to construct the level as instructed.

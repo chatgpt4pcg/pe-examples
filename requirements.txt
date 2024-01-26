@@ -1,2 +1,2 @@
 python-dotenv~=1.0.0
-chatgpt4pcg~=1.0.1
+chatgpt4pcg~=1.1.2
