@@ -28,7 +28,7 @@ class TreeOfThoughtPrompting(TrialLoop):
         current_content = ""
 
         try:
-            for step in range(max_depth):
+            for _ in range(max_depth):
                 task_prompt = open(Path("prompts/task.txt"), "r").read().replace("<OBJECT>", target_character).replace(
                     "<GENERATED_CONTENT_SO_FAR>", "Nothing." if current_content == "" else current_content)
                 samples = chat_with_chatgpt(ctx, [{
