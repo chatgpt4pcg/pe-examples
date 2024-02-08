@@ -67,6 +67,20 @@ Furthermore, prompts provided in each example are not optimal and can be further
 
 ## Installation
 
+We recommend participants create a virtual environment to run the examples. You can create a virtual environment through
+conda or venv. For example, to create a virtual environment using conda, you can run the following command:
+
+```bash
+conda create -n chatgpt4pcg2 python=3.11
+```
+
+Once you have created the virtual environment, you can activate the virtual environment by running the following
+command:
+
+```bash
+conda activate chatgpt4pcg2
+```
+
 To run the examples, you need to install the required packages. You can install the required packages by running the
 following command:
 
@@ -85,7 +99,7 @@ OpenAI API key and secure it.
 After setting the environment variables, you can run the examples by running the following command:
 
 ```bash
-python <pe_folder>/<pe_name<.py
+python <pe_folder>/<pe_name>.py
 ```
 
 For example, to run the zero-shot example, you can run the following command:
