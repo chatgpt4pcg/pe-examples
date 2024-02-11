@@ -42,27 +42,29 @@ The relevant constraints are given in the following.
 5.1 No boundary intrusion: This is a soft constraint that should be met if possible. Namely, blocks should not intrude on the boundary of the map. In other words, the area of intrusion regions should be zero.
 
 6. Examples
-6.1. Input: "S"
+6.1. Input: "G"
 Output:
 ```
-drop_block('b31', 10)
-drop_block('b31', 11)
-drop_block('b31', 10)
-drop_block('b31', 9)
-drop_block('b31', 10)
+drop_block("b31",8)
+drop_block("b31",11)
+drop_block("b11",6)
+drop_block("b31",7)
+drop_block("b31",12)
+drop_block("b31",11)
+drop_block("b11",13)
+drop_block("b13",14)
+drop_block("b13",8)
+drop_block("b31",6)
+drop_block("b31",6)
+drop_block("b31",6)
+drop_block("b31",7)
+drop_block("b11",6)
+drop_block("b31",8)
+drop_block("b11",7)
+drop_block("b31",9)
 ```
 
-6.2. Input: "S"
-Output:
-```
-drop_block('b31', 10)
-drop_block('b31', 11)
-drop_block('b31', 10)
-drop_block('b31', 9)
-drop_block('b31', 10)
-```
-
-6.3. Input: "Q"
+6.2. Input: "Q"
 Output:
 ```
 drop_block("b31",8)
@@ -100,26 +102,14 @@ drop_block("b11",10)
 drop_block("b11",11)
 ```
 
-6.3. Input: "G"
+6.3. Input: "S"
 Output:
 ```
-drop_block("b31",8)
-drop_block("b31",11)
-drop_block("b11",6)
-drop_block("b31",7)
-drop_block("b31",12)
-drop_block("b31",11)
-drop_block("b11",13)
-drop_block("b13",14)
-drop_block("b13",8)
-drop_block("b31",6)
-drop_block("b31",6)
-drop_block("b31",6)
-drop_block("b31",7)
-drop_block("b11",6)
-drop_block("b31",8)
-drop_block("b11",7)
-drop_block("b31",9)
+drop_block('b31', 10)
+drop_block('b31', 11)
+drop_block('b31', 10)
+drop_block('b31', 9)
+drop_block('b31', 10)
 ```
 ---
 Input: "<OBJECT>"
