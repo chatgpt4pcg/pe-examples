@@ -42,8 +42,8 @@ The relevant constraints are given in the following.
 5.1 No boundary intrusion: This is a soft constraint that should be met if possible. Namely, blocks should not intrude on the boundary of the map. In other words, the area of intrusion regions should be zero.
 ---
 Let's follow the following steps
-1. Generate the base layer of the strcture
-3. Generate the top layer of the structure
+1. Generate the base layer of the structure
+2. Generate the top layer of the structure
 
 Only perform one step at a time.
 
