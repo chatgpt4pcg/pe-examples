@@ -48,7 +48,7 @@ Let's follow the following steps
 Only perform one step at a time.
 
 Example
-Character <OBJECT>:
+Character A:
 ```
 # Base layer
 drop_block('b11', 0)
