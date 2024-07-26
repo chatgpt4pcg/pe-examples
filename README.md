@@ -96,17 +96,26 @@ get the OpenAI API key by following the instructions [here](https://platform.ope
 that we do not provide support for the OpenAI API key. It is the responsibility of the participants to obtain their own
 OpenAI API key and secure it.
 
-After setting the environment variables, you can run the examples by running the following command:
+After setting the environment variables, navigate to your desired example folder. For example, to run the zero-shot example, you can navigate to the `zero_shot` folder by running the following command:
 
 ```bash
-python <pe_folder>/<pe_name>.py
+cd zero_shot
 ```
 
-For example, to run the zero-shot example, you can run the following command:
+Then, you can run the examples by running the following command:
 
 ```bash
-python zero_shot/zero_shot.py
+python zero_shot.py
 ```
+
+Please note that you can change the name of the prompt engineering technique to run the other examples. For example, to
+run the zero-shot multi-turn example, you can navigate to the `zero_shot_multi_turn` folder from the root directory and run it using the following commands:
+
+```bash
+cd zero_shot_multi_turn
+python zero_shot_multi_turn.py
+```
+
 
 Please note that the examples provided in this repository are set to generate only one trial for `A` character. You can
 modify the `run_evaluation` function in the examples to generate more trials for different characters.
